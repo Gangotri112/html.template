@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <title>food site</title>
+        <link rel="stylesheet"href="food.css">
+    </head>
+    <body>
+        <header>
+            Taste Tales.
+        </header>
+        <nav>
+            <a href="#breakfast">Breakfast</a>
+            <a href="#lunch">Lunch</a>
+            <a href="#dinner">Dinner</a>
+            <a href="#desserts">Desserts</a>
+            <a href="#submit">Feedback</a>
+        </nav>
+        <section id="breakfast">
+            <h2>Breakfast Recipe</h2>
+            <div class="recipe">
+                <img src="uthapam.jpg">
+                <h3>Uttapam</h3>
+                <p>Indian soft fluffy pancake with fresh vegetable.Prefect for lazy morning.</p>
+                <a href="file:///C:/Users/Admin/OneDrive/Desktop/HTML%20AND%20CSS/uthapam.html"class="button">Recipe</a>
+            </div>
+            <div class="recipe">
+                <img src="sprouts.jpg">
+                <h3>Sprouts salad</h3>
+                <p>10 mins super quike salad.</p>
+                <a href="file:///C:/Users/Admin/OneDrive/Desktop/HTML%20AND%20CSS/sprouts.html"class="button">Recipe</a>
+            </div>
+        </section>
+            <section id="lunch">
+                <h2>Lunch Recipe</h2>
+                <div class="recipe">
+                    <img src="dal.jpg">
+                    <h3>Chana dal</h3>
+                    <p>Tasty and Delicious dal.</p>
+                    <a href="file:///C:/Users/Admin/OneDrive/Desktop/HTML%20AND%20CSS/chana.html"class="button">Recipe</a>
+                </div>
+                <div class="recipe">
+                    <img src="biryani.jpg">
+                    <h3>Biryani</h3>
+                    <p>Perfect for you empty stomach.</p>
+                    <a href="file:///C:/Users/Admin/OneDrive/Desktop/HTML%20AND%20CSS/biryani.html"class="button">Recipe</a>
+                </div>
+        </section>
+        <section id="dinner">
+            <h2>Dinner Recipe</h2>
+            <div class="recipe">
+                <img src="chicken.jpg">
+                <h3>Chicken cury</h3>
+                <p>A classic indian dish of meat.</p>
+                <a href="C:/Users/Admin/OneDrive/Desktop/HTML%20AND%20CSS/chicken.html"class="button">Recipe</a>
+            </div>
+            <div class="recipe">
+                <img src="paratha.jpg">
+                <h3>Alo paratha</h3>
+                <p>Fill your empty stomach with parathas made by you.</p>
+                <a href="file:///C:/Users/Admin/OneDrive/Desktop/HTML%20AND%20CSS/alo.html"class="button">Recipe</a>
+            </div>
+        </section>
+        <section id="desserts">
+            <h2>Dessert Recipe</h2>
+            <div class="recipe">
+                <img src="cake.jpg">
+                <h3>Chocolate Cake </h3>
+                <p>A rich,moist chocolate cake that is perfect for any occasion.</p>
+                <a href="file:///C:/Users/Admin/OneDrive/Desktop/HTML%20AND%20CSS/cake.html"class="button">Recipe</a>
+            </div>
+    </section>
+    <section id="submit">
+        <h2>Submit Your feedback</h2>
+        <form action="submit feedback" method="POST">
+            <label for="recipe-name">Recipe Name:</label>
+            <input type="text" id="recipe-name" name="recipe-name" required>
+            <br><br>
+            <label for="recipe-category">Category:</label>
+            <select id="recipe-category" name="recipe-category" required>
+                <option value="breakfast">Breakfast</option>
+                <option value="lunch">Lunch</option>
+                <option value="dinner">Dinner</option>
+                <option value="dessert">Dessert</option>
+            </select>
+            <br><br>
+            <label for="recipe-feedback">Feedback:</label>
+            <textarea id="recipe-feedback" name="recipe-feedback" rows="4" required></textarea>
+            <br><br>
+            <button onclick="window.location.href='file:///C:/Users/Admin/OneDrive/Desktop/HTML%20AND%20CSS/html.html'">Submit feedback</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 All Recipes. All rights reserved.</p>
+    </footer>
+    </body>
+</html>

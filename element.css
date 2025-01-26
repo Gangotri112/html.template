@@ -1,0 +1,21 @@
+
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color:brown;
+    background-color: aliceblue;
+}
+#para1{
+    color:purple;
+}
+#para2 {
+    color:blueviolet;
+}
+.h2{
+    background-color:palevioletred;
+    color:aliceblue;
+}
+*{
+    background-color: rgb(137, 174, 206);
+}

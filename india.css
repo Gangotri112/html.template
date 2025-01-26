@@ -1,0 +1,16 @@
+
+.green{
+    background-color: green;
+}
+body{
+    background-image:url("istockphoto-672288354-1024x1024.jpg") ;
+    background-repeat:repeat-x;
+    border:2px solid red;
+    border-radius:20px;
+    padding:20px;
+    margin:10% 5%;
+    
+}
+.white{
+    color:white;
+}

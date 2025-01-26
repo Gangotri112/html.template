@@ -1,0 +1,22 @@
+body{
+    background-color:antiquewhite
+}
+.london{
+    background-color:grey;
+    padding: 10px;
+}
+.paris{
+    background-color: rgb(119, 98, 67);
+}
+.tokyo{
+    background-color:goldenrod;
+}
+#lon{
+   color:aliceblue;
+}
+#par{
+    color:azure;
+}
+#tok{
+    color:wheat;
+}
